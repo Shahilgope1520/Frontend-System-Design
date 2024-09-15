@@ -5,6 +5,7 @@ import About from "./components/About";
 import Team from "./components/Team";
 import ProtectedRoute from "./components/ProtectedRoute";
 import Login from "./components/Login";
+import Accordian from "./components/Accordian";
 
 function App() {
   const [lang, setLang] = useState("en");
@@ -15,6 +16,7 @@ function App() {
         <a href="/About">About</a>
         <a href="/Team">Team</a>
         <a href="/Login">Login</a>
+        <a href="/Accordian">Accordian</a>
         <select
           value={lang}
           onChange={(e) => setLang(e.target.value)}
@@ -32,6 +34,7 @@ function App() {
             <Route path="/About" element={<About lang={lang} />}></Route>
           </Route>
           <Route path="/Team" element={<Team />}></Route>
+          <Route path="/Accordian" element={<Accordian />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
