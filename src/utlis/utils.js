@@ -11,7 +11,7 @@ export const langConfig = {
         with desktop publishing software like Aldus PageMaker including versions
         of Lorem Ipsum`,
   },
-  hi:{
+  hi: {
     title: "हमारे बारे में",
     desc: `लोरेम इप्सम केवल मुद्रण और टाइपसेटिंग का नकली पाठ है
         उद्योग। लोरेम इप्सम उद्योग का अब तक का मानक डमी टेक्स्ट रहा है
@@ -24,3 +24,98 @@ export const langConfig = {
         लोरेम इप्सम का`,
   },
 };
+
+export const commentData = [
+  {
+    userName: "Shahil",
+    comment: "Lorem Ipsum is simply dummy",
+    reply: [
+      {
+        userName: "Kumar",
+        comment: "Lorem Ipsum is simply dummy",
+        reply: [
+          {
+            userName: "Kumar",
+            comment: "Lorem Ipsum is simply dummy",
+            reply: [
+              {
+                userName: "Kumar",
+                comment: "Lorem Ipsum is simply dummy",
+                reply: [
+                  {
+                    userName: "Kumar",
+                    comment: "Lorem Ipsum is simply dummy",
+                    reply: [
+                      {
+                        userName: "Kumar",
+                        comment: "Lorem Ipsum is simply dummy",
+                      },
+                    ],
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            userName: "Gope",
+            comment: "Lorem Ipsum is simply dummy",
+            reply: [
+              {
+                userName: "Kumar",
+                comment: "Lorem Ipsum is simply dummy",
+              },
+              {
+                userName: "Gope",
+                comment: "Lorem Ipsum is simply dummy",
+              },
+              {
+                userName: "Swapnil",
+                comment: "Lorem Ipsum is simply dummy",
+                reply: [
+                  {
+                    userName: "Gope",
+                    comment: "Lorem Ipsum is simply dummy",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            userName: "Swapnil",
+            comment: "Lorem Ipsum is simply dummy",
+            reply: [
+              {
+                userName: "Gope",
+                comment: "Lorem Ipsum is simply dummy",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        userName: "Gope",
+        comment: "Lorem Ipsum is simply dummy",
+      },
+      {
+        userName: "Swapnil",
+        comment: "Lorem Ipsum is simply dummy",
+        reply: [
+          {
+            userName: "Gope",
+            comment: "Lorem Ipsum is simply dummy",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    userName: "Bhumika",
+    comment: "Lorem Ipsum is simply dummy",
+    reply: [
+      {
+        userName: "Gupta",
+        comment: "Lorem Ipsum is simply dummy",
+      },
+    ],
+  },
+];
