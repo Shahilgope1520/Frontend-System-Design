@@ -7,6 +7,7 @@ import ProtectedRoute from "./components/ProtectedRoute";
 import Login from "./components/Login";
 import Accordian from "./components/Accordian";
 import RedditComment from "./components/RedditComment/RedditComment";
+import ImageSlider from "./components/ImageSlider/ImageSlider";
 
 function App() {
   const [lang, setLang] = useState("en");
@@ -19,6 +20,7 @@ function App() {
         <a href="/Login">Login</a>
         <a href="/Accordian">Accordian</a>
         <a href="/RedditComment">RedditComment</a>
+        <a href="/ImageSlider">ImageSlider</a>
         <select
           value={lang}
           onChange={(e) => setLang(e.target.value)}
@@ -38,6 +40,7 @@ function App() {
           <Route path="/Team" element={<Team />}></Route>
           <Route path="/Accordian" element={<Accordian />}></Route>
           <Route path="/RedditComment" element={<RedditComment />}></Route>
+          <Route path="/ImageSlider" element={<ImageSlider />}></Route>
         </Routes>
       </BrowserRouter>
     </div>

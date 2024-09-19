@@ -45,12 +45,12 @@ export const commentData = [
                   {
                     userName: "Kumar",
                     comment: "Lorem Ipsum is simply dummy",
-                    reply: [
-                      {
-                        userName: "Kumar",
-                        comment: "Lorem Ipsum is simply dummy",
-                      },
-                    ],
+                    
+                  },
+                  {
+                    userName: "Akshay",
+                    comment: "Lorem Ipsum is simply dummy",
+                    
                   },
                 ],
               },
